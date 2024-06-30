@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: report-demo
+  datasource:
+    url: jdbc://localhost:3306:/mydb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: none
+    hibernate:
+      ddl-auto: none
+
